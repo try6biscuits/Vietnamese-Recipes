@@ -1,0 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
+.header img {
+    max-width: 100px;
+}
