@@ -29,3 +29,16 @@
     justify-content: space-around;
     text-align: center;
 }
+
+/* Pho section */
+.phoImg img {
+    max-width: 800px;
+    border-radius: 28px;
+}
+
+.pho-section {
+    margin-top: 100px;
+    margin-bottom: 600px;
+    display: flex;
+    justify-content: center;
+}
