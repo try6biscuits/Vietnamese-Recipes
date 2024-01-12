@@ -1,5 +1,8 @@
 * {
     box-sizing: border-box;
+}
+
+body {
     background-color: antiquewhite;
 }
 
@@ -41,4 +44,16 @@
     margin-bottom: 600px;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
+
+.pho-section h1 {
+    font-size: 36px;
+}
+
+.phoRecipe {
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+}
+
