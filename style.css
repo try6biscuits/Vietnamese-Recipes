@@ -17,7 +17,7 @@
     align-items: center;
 }
 
-.springrolls img,
+.springRolls img,
 .pho img,
 .bun-cha img {
     border-radius: 28px;
@@ -27,4 +27,5 @@
 .foods {
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
