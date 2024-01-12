@@ -17,7 +17,8 @@
     align-items: center;
 }
 
-.springrolls img {
+.springrolls img,
+.pho img {
     border-radius: 28px;
     max-width: 250px;
 }
