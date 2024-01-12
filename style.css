@@ -59,3 +59,13 @@ body {
     border-width: 10px;
 }
 
+@font-face {
+    font-family: myFont;
+    src: url(pixel.ttf);
+}
+
+.phoRecipe h1,
+.phoRecipe h3,
+.phoRecipe li {
+    font-family: myFont;
+}
