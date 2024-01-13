@@ -60,12 +60,18 @@ body {
 }
 
 @font-face {
-    font-family: myFont;
+    font-family: pixelFont;
     src: url(pixel.ttf);
 }
 
-.phoRecipe h1,
-.phoRecipe h3,
-.phoRecipe li {
-    font-family: myFont;
+.ingredients h1,
+.ingredients h3,
+.ingredients li,
+.secondIngredients h3,
+.secondIngredients li {
+    font-family: pixelFont;
+}
+
+.ingredients h1 {
+    font-size: 26px;
 }
