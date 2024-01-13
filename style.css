@@ -59,6 +59,7 @@ body {
     border-radius: 24px;
     border-width: 10px;
     margin-bottom: 160px;
+    padding-bottom: 160px;
 }
 
 @font-face {
@@ -72,4 +73,13 @@ body {
 .secondIngredients h3,
 .secondIngredients li {
     font-family: pixelFont;
+}
+
+.ingredients {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ingredientsHeading {
+    margin-bottom: 160px;
 }
