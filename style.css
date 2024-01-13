@@ -47,8 +47,9 @@ body {
     text-align: center;
 }
 
-.pho-section h1 {
+.phoRecipe h1 {
     font-size: 36px;
+    text-align: center;
 }
 
 .phoRecipe {
@@ -57,6 +58,7 @@ body {
     background-color: white;
     border-radius: 24px;
     border-width: 10px;
+    margin-bottom: 160px;
 }
 
 @font-face {
@@ -64,14 +66,10 @@ body {
     src: url(pixel.ttf);
 }
 
-.ingredients h1,
+.phoRecipe h1,
 .ingredients h3,
 .ingredients li,
 .secondIngredients h3,
 .secondIngredients li {
     font-family: pixelFont;
-}
-
-.ingredients h1 {
-    font-size: 26px;
 }
