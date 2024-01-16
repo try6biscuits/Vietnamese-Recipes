@@ -39,6 +39,10 @@ body {
     border-radius: 28px;
 }
 
+
+.phoImg h1 {
+    font-size: 36px;
+}
 .pho-section {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -48,7 +52,7 @@ body {
 }
 
 .phoRecipe h1 {
-    font-size: 36px;
+    font-size: 55px;
     text-align: center;
 }
 
@@ -82,4 +86,9 @@ body {
 
 .ingredientsHeading {
     margin-bottom: 160px;
+}
+
+/* Add a new style for the button */
+#HomePage {
+    display: block;
 }
