@@ -108,9 +108,16 @@ body {
     font-size: 36px;
 }
 
-
-
 .springRoll-section {
     margin-top: 160px;
     margin-bottom: 160px;
+}
+
+.springRoll-Recipe .ingredientsHeading {
+    text-align: center;
+    font-size: 55px;
+}
+
+.springRoll-Recipe .ingredients {
+    display: flex;
 }
