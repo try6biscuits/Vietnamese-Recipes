@@ -77,19 +77,19 @@ body {
 }
 
 .phoRecipe h1,
-.ingredients h3,
-.ingredients li,
-.secondIngredients h3,
-.secondIngredients li {
+.phoRecipe .ingredients h3,
+.phoRecipe .ingredients li,
+.phoRecipe .secondIngredients h3,
+.phoRecipe .secondIngredients li {
     font-family: pixelFont;
 }
 
-.ingredients {
+.phoRecipe .ingredients {
     display: flex;
     justify-content: space-around;
 }
 
-.ingredientsHeading {
+.phoRecipe .ingredientsHeading {
     margin-bottom: 160px;
 }
 
@@ -104,4 +104,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 16px;
+    font-size: 36px;
+}
+
+
+
+.springRoll-section {
+    margin-top: 160px;
+    margin-bottom: 160px;
 }
