@@ -1,20 +1,28 @@
 document.addEventListener('DOMContentLoaded', function() {
   const phoRecipePage = document.querySelector('#phoRecipePage');
   const homePage = document.querySelector('#homePage');
+  const springRollRecipePage = document.querySelector('#springRollRecipePage');
 
   if (phoRecipePage) {
-    phoRecipePage.addEventListener("click", reDirect);
+    phoRecipePage.addEventListener("click", reDirectToPhoPage);
   }
 
   if (homePage) {
-    homePage.addEventListener("click", goBack);
+    homePage.addEventListener("click", goBackHome);
   }
 
-  function reDirect() {
+  if (springRollRecipePage) {
+    springRollRecipePage.addEventListener("click", reDirectToSpringRollPage)
+  }
+
+  function reDirectToPhoPage() {
     window.location.href = 'phoRecipe.html';
   }
 
-  function goBack() {
+  function reDirectToSpringRollPage() {
+    window.location.href = 'springRollRecipe.html'
+  }
+  function goBackHome() {
     window.location.href = 'homePage.html';
   }
 });
