@@ -120,4 +120,27 @@ body {
 
 .springRoll-Recipe .ingredients {
     display: flex;
+    justify-content: space-around;
+}
+
+.springRoll-Recipe {
+    border-style: inset;
+    border-color: lightcyan;
+    background-color: white;
+    border-radius: 24px;
+    border-width: 10px;
+    margin-bottom: 160px;
+    padding-bottom: 160px;
+}
+
+.springRoll-Recipe h1,
+.springRoll-Recipe .ingredients h3,
+.springRoll-Recipe .ingredients li,
+.springRoll-Recipe .Sauce h3,
+.springRoll-Recipe .Assembling li {
+    font-family: pixelFont;
+}
+
+.springRoll-Recipe .ingredientsHeading {
+    margin-bottom: 160px;
 }
