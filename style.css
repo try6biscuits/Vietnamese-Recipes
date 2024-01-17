@@ -37,7 +37,7 @@ body {
     text-align: center;
 }
 
-/* Pho section */
+/* Recipe section */
 .phoImg img {
     max-width: 800px;
     border-radius: 28px;
@@ -55,6 +55,7 @@ body {
     text-align: center;
 }
 
+/* change to flex */
 .phoRecipe h1 {
     font-size: 55px;
     text-align: center;
@@ -92,3 +93,15 @@ body {
     margin-bottom: 160px;
 }
 
+/* Spring Roll section */
+
+.springRollImg img {
+    max-width: 650px;
+    border-radius: 28px
+}
+
+.springRollImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
