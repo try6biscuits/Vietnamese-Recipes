@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+#HomePage {
+    display: block;
+}
+
 body {
     background-color: antiquewhite;
 }
@@ -88,7 +92,3 @@ body {
     margin-bottom: 160px;
 }
 
-/* Add a new style for the button */
-#HomePage {
-    display: block;
-}
