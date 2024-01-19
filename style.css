@@ -195,3 +195,10 @@ body {
 .BunaCha-Recipe .secondIngredients li {
     font-family: pixelFont;
 }
+
+/* Button */
+button {
+   border-radius: 24px;
+   padding: 10px;
+   background-color: antiquewhite;
+}
