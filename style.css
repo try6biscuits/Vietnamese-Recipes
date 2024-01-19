@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    flex: 1;
 }
 
 #HomePage {
@@ -162,11 +163,35 @@ body {
     font-size: 36px;
 }
 
-.BunaChaRecipe .ingredients {
+
+.BunaChaRecipe .ingredientsHeading {
+    text-align: center;
+}
+
+.BunaCha-Recipe {
+    border-style: inset;
+    border-color: lightcyan;
+    background-color: white;
+    border-radius: 24px;
+    border-width: 10px;
+    margin-bottom: 160px;
+    padding-bottom: 160px;
+}
+
+.ingredients {
     display: flex;
     justify-content: space-around;
 }
 
-.BunaChaRecipe .ingredientsHeading {
+.BunaCha-Recipe .ingredientsHeading {
     text-align: center;
+    margin-bottom: 160px;
+}
+
+.BunaCha-Recipe h1,
+.BunaCha-Recipe .ingredients h3,
+.BunaCha-Recipe .ingredients li,
+.BunaCha-Recipe .Sauce h3,
+.BunaCha-Recipe .secondIngredients li {
+    font-family: pixelFont;
 }
