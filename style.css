@@ -201,3 +201,7 @@ button {
    padding: 10px;
    background-color: antiquewhite;
 }
+
+button:hover {
+    background-color: white;
+}
